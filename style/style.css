@@ -1,0 +1,145 @@
+body {
+	margin: 0;
+	margin-top: 0px;
+}
+
+/* Шапка */
+
+header {
+	padding: 20px 0 20px 0;
+	top: 0;
+	background-image: linear-gradient(to right, #000, #333);
+	width: 100%;
+	position: fixed;
+}
+
+nav {
+	display: inline;
+}
+
+p.head {
+	margin-top: 0;
+	padding: 25px 0 0px 10%;
+	color: #fff;
+	font-size: 2em;
+	width: 500px;
+	display: inline;
+}
+
+ul.nav {
+	list-style-type: none;
+	width: 50%;
+	margin-left: 35%;
+	display: inline;
+}
+
+ul.nav li {
+	display: inline;
+}
+
+ul.nav a {
+	display: inline;
+	color: #fff;
+	text-decoration: none; 
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+ul.nav a:hover {
+	display: inline;
+	color: #fff;
+	text-decoration: underline; 
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+/* Вступление */
+
+main {
+	margin-top: 80px;
+
+}
+
+
+div.entry {
+	background-image: url("../image/fon.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	 
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+	padding: 20% 0 0 0;
+}
+
+p.main {
+	color: #fff;
+	font-size: 20px;
+	padding: 0 15% 20% 15%;
+	text-align: center;
+}
+
+
+/* История */
+
+article#his {
+	width: 92%;
+	margin: 0 auto;
+}
+
+article p {
+	font-size: 17px;
+	font-family: 'Bitter', serif;
+}
+
+h2 {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Bitter', serif;
+}
+
+h3 {
+	padding-top: 10px; 
+	text-align: center;
+	font-family: 'Bitter', serif;
+}
+
+div.bow, div.alx, div.bom, div.ruc, div.kuv, div.guk, div.ark, div.mush, div.pish {
+	display: flex;
+	justify-content: center;
+}
+
+div.bow img:hover {
+	transform: scale(1.10); 
+	transition-duration: 0.5s;
+}
+
+div.alx img {
+	height: 500px;
+	
+}
+
+div.alx img:hover {
+	transform: scale(1.10); 
+	transition-duration: 0.5s;
+}
+
+div.bom img:hover {
+	transform: scale(1.30); 
+	transition-duration: 0.5s;
+}
+
+
+/* Контакты */
+
+footer {
+	background: #000;
+	color: #fff;
+	padding: 20px 0 20px 0;
+}
+
+div.foot {
+	padding-left: 7%; 
+}

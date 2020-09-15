@@ -1,0 +1,105 @@
+body {
+	margin: 0;
+	margin-top: 0px;
+}
+
+/* Шапка */
+
+header {
+	padding: 20px 0 20px 0;
+	top: 0;
+	background-image: linear-gradient(to right, #000, #333);
+	width: 100%;
+	position: fixed;
+}
+
+nav {
+	display: inline;
+}
+
+p.head {
+	margin-top: 0;
+	padding: 25px 0 0px 10%;
+	color: #fff;
+	font-size: 2em;
+	width: 500px;
+	display: inline;
+}
+
+ul.nav {
+	list-style-type: none;
+	margin-left: 35%;
+	display: inline;
+}
+
+ul.nav li {
+	display: inline;
+}
+
+ul.nav a {
+	display: inline;
+	color: #fff;
+	text-decoration: none; 
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+ul.nav a:hover {
+	display: inline;
+	color: #fff;
+	text-decoration: underline; 
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+/* Виды */
+
+article.ma {
+	margin: 0 11% 0 11%;
+	
+}
+
+h1 {
+	margin-top: 100px;
+	text-align: center;
+	size: 2em;
+	font-family: 'Bitter', serif;
+}
+
+h3 {
+	text-align: center; 
+	font-family: 'Bitter', serif;
+}
+
+article p {
+	text-align: center; 
+	font-family: 'Bitter', serif;
+}
+
+article.ma div {
+	margin: 2%;
+	width: 100%;
+}
+
+div.first, div.second, div.third {
+	display: flex;
+	
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	margin-left: 16%; 
+}
+
+/* Контакты */
+
+footer {
+	background: #000;
+	color: #fff;
+	padding: 20px 0 20px 0;
+}
+
+div.foot {
+	padding-left: 7%; 
+}
